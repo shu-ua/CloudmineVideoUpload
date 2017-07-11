@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9B3E4A51D0E597D362FACC7 /* Pods_CloudmineVideoUploading.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC2FCB51904457EAD4855F3 /* Pods_CloudmineVideoUploading.framework */; };
+		B692EDE45182E3E65715C448 /* Pods_CloudmineVideoUploadingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E947E3570DF5698020603E7 /* Pods_CloudmineVideoUploadingTests.framework */; };
+		F2E1B9CC1F156D6F004A0031 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1B9CB1F156D6F004A0031 /* AppDelegate.swift */; };
+		F2E1B9CE1F156D6F004A0031 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1B9CD1F156D6F004A0031 /* ViewController.swift */; };
+		F2E1B9D11F156D6F004A0031 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E1B9CF1F156D6F004A0031 /* Main.storyboard */; };
+		F2E1B9D31F156D6F004A0031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2E1B9D21F156D6F004A0031 /* Assets.xcassets */; };
+		F2E1B9D61F156D6F004A0031 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E1B9D41F156D6F004A0031 /* LaunchScreen.storyboard */; };
+		F2E1B9E11F156D6F004A0031 /* CloudmineVideoUploadingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1B9E01F156D6F004A0031 /* CloudmineVideoUploadingTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2E1B9DD1F156D6F004A0031 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2E1B9C01F156D6F004A0031 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2E1B9C71F156D6F004A0031;
+			remoteInfo = CloudmineVideoUploading;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09BAA2A5986DB3BBAC0DAB40 /* Pods-CloudmineVideoUploading.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudmineVideoUploading.release.xcconfig"; path = "Pods/Target Support Files/Pods-CloudmineVideoUploading/Pods-CloudmineVideoUploading.release.xcconfig"; sourceTree = "<group>"; };
+		2E947E3570DF5698020603E7 /* Pods_CloudmineVideoUploadingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudmineVideoUploadingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D249B02B5BFE715D1051CA /* Pods-CloudmineVideoUploading.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudmineVideoUploading.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CloudmineVideoUploading/Pods-CloudmineVideoUploading.debug.xcconfig"; sourceTree = "<group>"; };
+		BA06EC576284A51D5D7428AB /* Pods-CloudmineVideoUploadingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudmineVideoUploadingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CloudmineVideoUploadingTests/Pods-CloudmineVideoUploadingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCC2FCB51904457EAD4855F3 /* Pods_CloudmineVideoUploading.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudmineVideoUploading.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2A8155E237DFEC51E8D76D9 /* Pods-CloudmineVideoUploadingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudmineVideoUploadingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CloudmineVideoUploadingTests/Pods-CloudmineVideoUploadingTests.release.xcconfig"; sourceTree = "<group>"; };
+		F2E1B9C81F156D6F004A0031 /* CloudmineVideoUploading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudmineVideoUploading.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E1B9CB1F156D6F004A0031 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2E1B9CD1F156D6F004A0031 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2E1B9D01F156D6F004A0031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2E1B9D21F156D6F004A0031 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2E1B9D51F156D6F004A0031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2E1B9D71F156D6F004A0031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2E1B9DC1F156D6F004A0031 /* CloudmineVideoUploadingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudmineVideoUploadingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E1B9E01F156D6F004A0031 /* CloudmineVideoUploadingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudmineVideoUploadingTests.swift; sourceTree = "<group>"; };
+		F2E1B9E21F156D6F004A0031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2E1B9C51F156D6F004A0031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B3E4A51D0E597D362FACC7 /* Pods_CloudmineVideoUploading.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E1B9D91F156D6F004A0031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B692EDE45182E3E65715C448 /* Pods_CloudmineVideoUploadingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		170E69457C91189C1E1BFA1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCC2FCB51904457EAD4855F3 /* Pods_CloudmineVideoUploading.framework */,
+				2E947E3570DF5698020603E7 /* Pods_CloudmineVideoUploadingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE01A9939A1E9F3C2AC60572 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52D249B02B5BFE715D1051CA /* Pods-CloudmineVideoUploading.debug.xcconfig */,
+				09BAA2A5986DB3BBAC0DAB40 /* Pods-CloudmineVideoUploading.release.xcconfig */,
+				BA06EC576284A51D5D7428AB /* Pods-CloudmineVideoUploadingTests.debug.xcconfig */,
+				E2A8155E237DFEC51E8D76D9 /* Pods-CloudmineVideoUploadingTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F2E1B9BF1F156D6F004A0031 = {
+			isa = PBXGroup;
+			children = (
+				F2E1B9CA1F156D6F004A0031 /* CloudmineVideoUploading */,
+				F2E1B9DF1F156D6F004A0031 /* CloudmineVideoUploadingTests */,
+				F2E1B9C91F156D6F004A0031 /* Products */,
+				BE01A9939A1E9F3C2AC60572 /* Pods */,
+				170E69457C91189C1E1BFA1A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F2E1B9C91F156D6F004A0031 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2E1B9C81F156D6F004A0031 /* CloudmineVideoUploading.app */,
+				F2E1B9DC1F156D6F004A0031 /* CloudmineVideoUploadingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2E1B9CA1F156D6F004A0031 /* CloudmineVideoUploading */ = {
+			isa = PBXGroup;
+			children = (
+				F2E1B9CB1F156D6F004A0031 /* AppDelegate.swift */,
+				F2E1B9CD1F156D6F004A0031 /* ViewController.swift */,
+				F2E1B9CF1F156D6F004A0031 /* Main.storyboard */,
+				F2E1B9D21F156D6F004A0031 /* Assets.xcassets */,
+				F2E1B9D41F156D6F004A0031 /* LaunchScreen.storyboard */,
+				F2E1B9D71F156D6F004A0031 /* Info.plist */,
+			);
+			path = CloudmineVideoUploading;
+			sourceTree = "<group>";
+		};
+		F2E1B9DF1F156D6F004A0031 /* CloudmineVideoUploadingTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2E1B9E01F156D6F004A0031 /* CloudmineVideoUploadingTests.swift */,
+				F2E1B9E21F156D6F004A0031 /* Info.plist */,
+			);
+			path = CloudmineVideoUploadingTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2E1B9C71F156D6F004A0031 /* CloudmineVideoUploading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2E1B9E51F156D6F004A0031 /* Build configuration list for PBXNativeTarget "CloudmineVideoUploading" */;
+			buildPhases = (
+				F648D4B62BA24D29D897DAC9 /* [CP] Check Pods Manifest.lock */,
+				F2E1B9C41F156D6F004A0031 /* Sources */,
+				F2E1B9C51F156D6F004A0031 /* Frameworks */,
+				F2E1B9C61F156D6F004A0031 /* Resources */,
+				07A8D55603FDF15C52134132 /* [CP] Embed Pods Frameworks */,
+				C0B10D1CBFD04E974F70F05C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudmineVideoUploading;
+			productName = CloudmineVideoUploading;
+			productReference = F2E1B9C81F156D6F004A0031 /* CloudmineVideoUploading.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2E1B9DB1F156D6F004A0031 /* CloudmineVideoUploadingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2E1B9E81F156D6F004A0031 /* Build configuration list for PBXNativeTarget "CloudmineVideoUploadingTests" */;
+			buildPhases = (
+				7347359E008FAA76FCB260BE /* [CP] Check Pods Manifest.lock */,
+				F2E1B9D81F156D6F004A0031 /* Sources */,
+				F2E1B9D91F156D6F004A0031 /* Frameworks */,
+				F2E1B9DA1F156D6F004A0031 /* Resources */,
+				33C31254A6E951DDF348195D /* [CP] Embed Pods Frameworks */,
+				912480A6BF747F09705326B5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2E1B9DE1F156D6F004A0031 /* PBXTargetDependency */,
+			);
+			name = CloudmineVideoUploadingTests;
+			productName = CloudmineVideoUploadingTests;
+			productReference = F2E1B9DC1F156D6F004A0031 /* CloudmineVideoUploadingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2E1B9C01F156D6F004A0031 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Bohdan Shcherbyna";
+				TargetAttributes = {
+					F2E1B9C71F156D6F004A0031 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = LY2JY343Q2;
+						ProvisioningStyle = Automatic;
+					};
+					F2E1B9DB1F156D6F004A0031 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = LY2JY343Q2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F2E1B9C71F156D6F004A0031;
+					};
+				};
+			};
+			buildConfigurationList = F2E1B9C31F156D6F004A0031 /* Build configuration list for PBXProject "CloudmineVideoUploading" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2E1B9BF1F156D6F004A0031;
+			productRefGroup = F2E1B9C91F156D6F004A0031 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2E1B9C71F156D6F004A0031 /* CloudmineVideoUploading */,
+				F2E1B9DB1F156D6F004A0031 /* CloudmineVideoUploadingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2E1B9C61F156D6F004A0031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E1B9D61F156D6F004A0031 /* LaunchScreen.storyboard in Resources */,
+				F2E1B9D31F156D6F004A0031 /* Assets.xcassets in Resources */,
+				F2E1B9D11F156D6F004A0031 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E1B9DA1F156D6F004A0031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07A8D55603FDF15C52134132 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudmineVideoUploading/Pods-CloudmineVideoUploading-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33C31254A6E951DDF348195D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudmineVideoUploadingTests/Pods-CloudmineVideoUploadingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7347359E008FAA76FCB260BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		912480A6BF747F09705326B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudmineVideoUploadingTests/Pods-CloudmineVideoUploadingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0B10D1CBFD04E974F70F05C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudmineVideoUploading/Pods-CloudmineVideoUploading-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F648D4B62BA24D29D897DAC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2E1B9C41F156D6F004A0031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E1B9CE1F156D6F004A0031 /* ViewController.swift in Sources */,
+				F2E1B9CC1F156D6F004A0031 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E1B9D81F156D6F004A0031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E1B9E11F156D6F004A0031 /* CloudmineVideoUploadingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2E1B9DE1F156D6F004A0031 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2E1B9C71F156D6F004A0031 /* CloudmineVideoUploading */;
+			targetProxy = F2E1B9DD1F156D6F004A0031 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2E1B9CF1F156D6F004A0031 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2E1B9D01F156D6F004A0031 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2E1B9D41F156D6F004A0031 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2E1B9D51F156D6F004A0031 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2E1B9E31F156D6F004A0031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2E1B9E41F156D6F004A0031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2E1B9E61F156D6F004A0031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52D249B02B5BFE715D1051CA /* Pods-CloudmineVideoUploading.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LY2JY343Q2;
+				INFOPLIST_FILE = CloudmineVideoUploading/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shshsh.CloudmineVideoUploading;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F2E1B9E71F156D6F004A0031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09BAA2A5986DB3BBAC0DAB40 /* Pods-CloudmineVideoUploading.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LY2JY343Q2;
+				INFOPLIST_FILE = CloudmineVideoUploading/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shshsh.CloudmineVideoUploading;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F2E1B9E91F156D6F004A0031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA06EC576284A51D5D7428AB /* Pods-CloudmineVideoUploadingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LY2JY343Q2;
+				INFOPLIST_FILE = CloudmineVideoUploadingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shshsh.CloudmineVideoUploadingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudmineVideoUploading.app/CloudmineVideoUploading";
+			};
+			name = Debug;
+		};
+		F2E1B9EA1F156D6F004A0031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2A8155E237DFEC51E8D76D9 /* Pods-CloudmineVideoUploadingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LY2JY343Q2;
+				INFOPLIST_FILE = CloudmineVideoUploadingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shshsh.CloudmineVideoUploadingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudmineVideoUploading.app/CloudmineVideoUploading";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2E1B9C31F156D6F004A0031 /* Build configuration list for PBXProject "CloudmineVideoUploading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E1B9E31F156D6F004A0031 /* Debug */,
+				F2E1B9E41F156D6F004A0031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2E1B9E51F156D6F004A0031 /* Build configuration list for PBXNativeTarget "CloudmineVideoUploading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E1B9E61F156D6F004A0031 /* Debug */,
+				F2E1B9E71F156D6F004A0031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F2E1B9E81F156D6F004A0031 /* Build configuration list for PBXNativeTarget "CloudmineVideoUploadingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E1B9E91F156D6F004A0031 /* Debug */,
+				F2E1B9EA1F156D6F004A0031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2E1B9C01F156D6F004A0031 /* Project object */;
+}

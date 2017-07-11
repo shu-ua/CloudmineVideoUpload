@@ -1,0 +1,59 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - CloudMine (1.7.17):
+    - AFNetworking (~> 2.6.3)
+    - CloudMine/no-arc (= 1.7.17)
+  - CloudMine/no-arc (1.7.17):
+    - AFNetworking (~> 2.6.3)
+  - Fusuma (2.0.1):
+    - NextLevel (~> 0.3.5)
+  - NextLevel (0.3.12)
+
+DEPENDENCIES:
+  - AFNetworking
+  - CloudMine (from `https://github.com/shu-ua/CloudMineSDK-iOS.git`)
+  - Fusuma (from `https://github.com/shu-ua/Fusuma.git`)
+
+EXTERNAL SOURCES:
+  CloudMine:
+    :git: https://github.com/shu-ua/CloudMineSDK-iOS.git
+  Fusuma:
+    :git: https://github.com/shu-ua/Fusuma.git
+
+CHECKOUT OPTIONS:
+  CloudMine:
+    :commit: 2386208629257bd6fbaa824f46b425709f4270b5
+    :git: https://github.com/shu-ua/CloudMineSDK-iOS.git
+  Fusuma:
+    :commit: 4317107c754a09a34d160b371c9b41464122e061
+    :git: https://github.com/shu-ua/Fusuma.git
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  CloudMine: 6a71f65c1b45c9044bbde68649f3a5811781457a
+  Fusuma: 55b3f8fded277e97588401846539eb90c0d3639b
+  NextLevel: 04444215aee21c68f153da949a6316305c73c594
+
+PODFILE CHECKSUM: 1fbbb9619949488879ee55782ae3a2f2ac5f16b3
+
+COCOAPODS: 1.2.1
